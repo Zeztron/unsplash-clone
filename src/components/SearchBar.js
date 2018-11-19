@@ -16,8 +16,9 @@ class SearchBar extends React.Component {
                     className="ui form"
                 >
                     <div className="field">
-                        <label>Image Search</label>
+                        <label>Image Search App</label>
                         <input
+                            placeholder="Search for High Quality Images"
                             type="text"
                             value={this.state.term}
                             onChange={e =>
